@@ -19,6 +19,7 @@ export default async function DashboardDetailPage({
       <h1>{post?.username}</h1>
       <p>{post?.email}</p>
       <p>{post?.phone}</p>
+      <p>{post?.website}</p>
     </div>
   )
 }
