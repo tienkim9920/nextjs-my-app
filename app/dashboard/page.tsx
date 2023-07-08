@@ -19,7 +19,7 @@ export default async function DashboardPage() {
       <h1>All List Nine Dev</h1>
       <Suspense fallback={<div>Loading...</div>}>
         {(data || []).map((item: any) => (
-          <Link href={'/dashboard/' + item?.userId} key={item?.userId}>
+          <Link href={'/dashboard/' + item?.id} key={item?.userId}>
             <div className={styles.single}>
               <h3>{item?.title}</h3>
             </div>

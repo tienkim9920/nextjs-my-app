@@ -56,6 +56,14 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./component/Navbar.tsx": {
       "*": {
         "id": "(sc_client)/./component/Navbar.tsx",
@@ -67,14 +75,6 @@
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -259,6 +259,22 @@
       ],
       "async": false
     },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/component/Navbar.tsx": {
       "id": "(app-client)/./component/Navbar.tsx",
       "name": "*",
@@ -280,22 +296,6 @@
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/dashboard/page:static/chunks/app/dashboard/page.js"
-      ],
-      "async": false
-    },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/dashboard/page:static/chunks/app/dashboard/page.js"
       ],
       "async": false
     },
@@ -325,6 +325,10 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/not-found": {
+      "modules": [],
+      "files": []
+    },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/layout": {
       "modules": [
         "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/styles/global.css",
@@ -332,6 +336,22 @@
       ],
       "files": [
         "static/css/app/layout.css"
+      ]
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/layout": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/[id]/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/page": {
+      "modules": [
+        "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/styles/dashboard.module.css"
+      ],
+      "files": [
+        "static/css/app/dashboard/page.css"
       ]
     },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/page": {
@@ -342,28 +362,12 @@
         "static/css/app/page.css"
       ]
     },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/not-found": {
-      "modules": [],
-      "files": []
-    },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/about/page": {
       "modules": [
         "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/page.module.css"
       ],
       "files": [
         "static/css/app/about/page.css"
-      ]
-    },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/layout": {
-      "modules": [],
-      "files": []
-    },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/page": {
-      "modules": [
-        "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/styles/dashboard.module.css"
-      ],
-      "files": [
-        "static/css/app/dashboard/page.css"
       ]
     }
   }
