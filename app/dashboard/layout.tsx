@@ -10,13 +10,7 @@ export default function DashboardLayout({
 }) {
   return (
     <section>
-      <div>
-        Header Nine Dev
-      </div>
-        {children}
-      <div>
-        Footer Nine Dev
-      </div>
+      {children}
     </section>
   )
 }

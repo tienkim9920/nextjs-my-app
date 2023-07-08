@@ -88,9 +88,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/dashboard/page.tsx": {
+    "(app-client)/./app/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/dashboard/page.tsx",
+        "id": "(sc_client)/./app/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -287,7 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/dashboard/page:static/chunks/app/dashboard/page.js"
       ],
       "async": false
     },
@@ -295,7 +295,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/dashboard/page:static/chunks/app/dashboard/page.js"
       ],
       "async": false
     },
@@ -315,11 +315,11 @@
       ],
       "async": false
     },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/page.tsx": {
-      "id": "(app-client)/./app/dashboard/page.tsx",
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
       "name": "*",
       "chunks": [
-        "app/dashboard/page:static/chunks/app/dashboard/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
@@ -334,10 +334,6 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/not-found": {
-      "modules": [],
-      "files": []
-    },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/page": {
       "modules": [
         "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/styles/home.module.css"
@@ -346,15 +342,7 @@
         "static/css/app/page.css"
       ]
     },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/page": {
-      "modules": [
-        "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/page.module.css"
-      ],
-      "files": [
-        "static/css/app/dashboard/page.css"
-      ]
-    },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/layout": {
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/not-found": {
       "modules": [],
       "files": []
     },
@@ -364,6 +352,18 @@
       ],
       "files": [
         "static/css/app/about/page.css"
+      ]
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/layout": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/app/dashboard/page": {
+      "modules": [
+        "/Users/tienkim/Documents/MyCode/courses/nextjs-my-app/styles/dashboard.module.css"
+      ],
+      "files": [
+        "static/css/app/dashboard/page.css"
       ]
     }
   }

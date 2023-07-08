@@ -1,11 +1,13 @@
-/*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/page.module.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************/
-.page_main__WunS6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./styles/dashboard.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.dashboard_single__3j3qp {
+  padding: 2px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  border-left: 8px solid #fff;
+}
+.dashboard_single__3j3qp:hover {
+  border-left: 8px solid #4979ff;
 }
